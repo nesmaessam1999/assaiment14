@@ -1,0 +1,76 @@
+.joinus {
+  background-color: #111111;
+}
+
+.joinus-card {
+  max-width: 750px;
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 24px;
+  padding: 50px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.joinus-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #fd7e14, #ff9a3c);
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.joinus-input {
+  background-color: #0d0d0d;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 14px 20px;
+  color: #fff;
+}
+
+.joinus-input::placeholder {
+  color: #666;
+}
+
+.joinus-input:focus {
+  background-color: #0d0d0d;
+  border-color: #fd7e14;
+  color: #fff;
+  box-shadow: 0 0 0 0.2rem rgba(253, 126, 20, 0.15);
+}
+
+.btn-orange {
+  background-color: #fd7e14;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e36a0d;
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(253, 126, 20, 0.3);
+}
+
+/* صور الأفاتار */
+.joinus-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1a1a1a;
+  margin-left: -12px;
+}
+
+.joinus-avatar:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 576px) {
+  .joinus-card {
+    padding: 35px 20px;
+  }
+}

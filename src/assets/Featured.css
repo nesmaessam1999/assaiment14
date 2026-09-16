@@ -1,0 +1,133 @@
+.featured-section {
+  background-color: #111;
+}
+
+.section-badge {
+  background: rgba(253, 126, 20, 0.1);
+  border: 1px solid rgba(253, 126, 20, 0.4);
+  border-radius: 50px;
+  color: #fd7e14;
+  font-size: 0.85rem;
+}
+
+.badge-dot {
+  width: 8px;
+  height: 8px;
+  background: #fd7e14;
+  border-radius: 50%;
+}
+
+.section-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.section-subtitle,
+.read-time,
+.author-date,
+.featured-desc {
+  color: #b0b0b0;
+}
+
+.view-all-btn {
+  background: #fd7e14;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.view-all-btn:hover {
+  background: #e36a0d;
+  color: #fff;
+}
+
+.featured-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  min-height: 300px;
+  transition: 0.3s;
+}
+
+.featured-card:hover {
+  border-color: rgba(253, 126, 20, 0.4);
+  transform: translateY(-5px);
+}
+
+.featured-image {
+  min-height: 300px;
+  position: relative;
+}
+
+.featured-image img {
+  object-fit: cover;
+}
+
+.featured-title,
+.author-name {
+  color: #fff;
+}
+
+.featured-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.category-tag {
+  background: rgba(253, 126, 20, 0.15);
+  color: #fd7e14;
+  padding: 5px 14px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.author-avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fd7e14;
+}
+
+.read-more-link {
+  color: #fd7e14;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.read-more-link:hover {
+  color: #ff9a3c;
+}
+
+.featured-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 2;
+  background: #fd7e14;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  .section-header {
+    padding-bottom: 55px;
+  }
+
+  .view-all-btn {
+    top: auto;
+    bottom: 0;
+    transform: none;
+  }
+
+  .featured-image {
+    min-height: 220px;
+  }
+}

@@ -1,0 +1,73 @@
+.hero-section {
+  padding: 100px 0 60px;
+  background-color: #111111;
+
+}
+
+.hero-badge {
+  background-color: rgba(253, 126, 20, 0.1);
+  border: 1px solid rgba(253, 126, 20, 0.4);
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.text-orange {
+  color: #fd7e14 !important;
+}
+
+.hero-desc {
+  font-size: 1.15rem;
+  color: #b0b0b0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.btn-orange {
+  background-color: #fd7e14;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #e36a0d;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(253, 126, 20, 0.3);
+}
+
+.btn-outline-light {
+  border-radius: 50px;
+  font-weight: 700;
+  padding: 12px 28px;
+}
+.btn-outline-light:hover {
+  background-color: rgba(253, 126, 20, 0.15);   
+  border-color: #fd7e14;                      
+  color: #fd7e14;                               
+}
+
+.stat-card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 18px 25px;      
+  transition: 0.3s;
+  width: 15%;       
+  text-align: center;
+}
+
+.stat-card:hover {
+  border-color: rgba(253, 126, 20, 0.5);
+  transform: translateY(-5px);
+}
